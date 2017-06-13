@@ -48,6 +48,11 @@ SRC_URI += " \
 	file://0026-input-soc_button_array-add-debounce-parameter-to-the.patch \
 	file://0027-acpi-Workaround-for-not-registering-CAN-controller.patch \
 	file://0028-Temporarily-remove-BXT-PMIC-driver.patch \
+	file://0029-drivers-media-ov7251-Remove-deadcode-and-add-name-of.patch \
+	file://0030-drivers-media-ov7251-Increase-FPS-to-75hz.patch \
+	file://0031-drivers-media-ov7251-Remove-printk-from-__ov7251_set.patch \
+	file://0032-drivers-media-ov7251-Enable-set-exposure.patch \
+	file://0033-drivers-media-atomisp-Allow-user-set-absolute-exposu.patch \
 	"
 
 do_install_append() {
